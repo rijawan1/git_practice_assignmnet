@@ -1,16 +1,18 @@
+
 let count=0;
+
 for(let i=0;i<=num;i++)
 {
 if(num%i==0)
 {
-count++
+count++;
 }
 }
 if(count==2)
 {
-console.log("Yes")
+console.log("Yes prime no")
 }
 else
 {
-console.log("no")
+console.log("not a prime no")
 }
